@@ -1,36 +1,43 @@
 # Import Data using Transform Maps & Spreadsheet
 
-## Project Overview
-This repository documents the process of importing employee data into ServiceNow using spreadsheets, Import Set staging tables, and Transform Maps, along with data validation and coalesce mechanisms to prevent duplicates.
+> **Repository Description:** Step-by-step documentation and visual guide for importing employee data into ServiceNow using Import Set Tables, Transform Maps, field validation, Coalesce duplicate prevention, and custom reports/dashboards.
 
 ---
 
-## Folder Structure
+## 📂 Folder Structure
+
 ```text
 .
-├── Milestone1/
-│   ├── Creation Of Spreadsheet-1.png
-│   ├── Creation Of Spreadsheet-2.png
-│   └── Creation of Tables.png
-├── Milestone2/
-│   ├── Create Importset Table.png
-│   └── Create Transform Map.png
-├── Milestone3/
-│   ├── Enable Coalesce to Avoid Duplicate Records-1.jpeg
-│   ├── Enable Coalesce to Avoid Duplicate Records-2.png
-│   ├── Enable Coalesce to Avoid Duplicate Records-3.png
-│   ├── Inserting New Data In Excel Format-1.jpeg
-│   ├── Inserting New Data In Excel Format-2.jpeg
-│   ├── Inserting New Data In Excel Format-3.jpeg
-│   ├── Inserting New Data In Excel Format-4.jpeg
-│   ├── Transform Data & Validate-1.png
-│   └── Transform Data & Validate-2.png
+├── Screenshots/
+│   ├── Milestone1/
+│   │   ├── Creation Of Spreadsheet-1.png
+│   │   ├── Creation Of Spreadsheet-2.png
+│   │   └── Creation of Tables.png
+│   ├── Milestone2/
+│   │   ├── Create Importset Table.png
+│   │   └── Create Transform Map.png
+│   ├── Milestone3/
+│   │   ├── Enable Coalesce to Avoid Duplicate Records-1.jpeg
+│   │   ├── Enable Coalesce to Avoid Duplicate Records-2.png
+│   │   ├── Enable Coalesce to Avoid Duplicate Records-3.png
+│   │   ├── Inserting New Data In Excel Format-1.jpeg
+│   │   ├── Inserting New Data In Excel Format-2.jpeg
+│   │   ├── Inserting New Data In Excel Format-3.jpeg
+│   │   ├── Inserting New Data In Excel Format-4.jpeg
+│   │   ├── Transform Data & Validate-1.png
+│   │   └── Transform Data & Validate-2.png
+│   └── Milestone4/
+│       ├── Create Reports-1.jpeg
+│       ├── Create Reports-2.jpeg
+│       ├── Create Reports-3.jpeg
+│       ├── Dashboard-1.jpeg
+│       └── Dashboard-2.jpeg
 └── README.md
 ```
 
 ---
 
-## Project Milestones
+## 🎯 Project Milestones
 
 ### Milestone 1: Creation Of Spreadsheet And Table
 **Description:**  
@@ -46,3 +53,8 @@ Prepares the employee spreadsheet (containing Employee ID, Name, Email, Departme
 * **Transform Data:** Transfers and converts data from the Import Set Table to the target Employee table based on the Transform Map rules.
 * **Validate Data:** Checks imported records to ensure mandatory fields (Employee ID, Name, Email) are complete and accurately formatted.
 * **Enable Coalesce:** Uses Employee ID as a unique identifier—updating existing employee records when matches are found and inserting new ones to eliminate duplicate records.
+
+### Milestone 4: Creation Of Reports And Dashboard
+**Description:**  
+* **Create Reports:** Generates custom reports in ServiceNow to visualize employee data metrics and monitor import results.
+* **Dashboard:** Consolidates reports into an interactive dashboard for centralized data visualization and real-time insights.
