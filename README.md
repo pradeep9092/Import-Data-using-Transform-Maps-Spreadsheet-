@@ -4,10 +4,20 @@
 
 ---
 
+## 📁 Project Resources & Links
+
+* 📊 **Dataset**: [`Dataset/Sample_Spreadsheet.xlsx`](Dataset/Sample_Spreadsheet.xlsx) — Sample Excel spreadsheet used for importing employee data.
+* 📄 **Project Report**: [`Final_Project_Report.pdf`](Final_Project_Report.pdf) — Comprehensive project report.
+* 🎥 **Demo Video**: [Watch Demo Video on Google Drive](https://drive.google.com/drive/folders/1l-A8JSE9MAAyO0BhMEwXL-FRcT4iD5xA?usp=sharing) — Video demonstration of the ServiceNow Transform Maps process.
+
+---
+
 ## 📂 Folder Structure
 
 ```text
 .
+├── Dataset/
+│   └── Sample_Spreadsheet.xlsx
 ├── Screenshots/
 │   ├── Milestone1/
 │   │   ├── Creation Of Spreadsheet-1.png
@@ -32,6 +42,8 @@
 │       ├── Create Reports-3.jpeg
 │       ├── Dashboard-1.jpeg
 │       └── Dashboard-2.jpeg
+├── Demo_Video
+├── Final_Project_Report.pdf
 └── README.md
 ```
 
